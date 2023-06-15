@@ -122,3 +122,27 @@ body, html {
     transform: translateY(2vh);
 }
 /* description end */
+
+/* responsive start */
+
+@media screen and (max-width: 678px) {
+    .description {
+        top: 7vh;
+        left: 4vw;
+        max-width: 30vw;
+    }
+
+    .slider{
+        top: 15vh;
+    }
+
+    .slider__item {
+        max-height: 65vh;
+    }
+
+    .slider__item.opened {
+        transform: rotate(-15deg) scale(1.25);
+    }
+}
+
+/* responsive end */
